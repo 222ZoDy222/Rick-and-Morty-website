@@ -1,0 +1,54 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////					Header Styles                   				//////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	perspective: 1px;
+	transform-style: preserve-3d;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.Wrapper {
+	box-sizing: border-box;
+	min-height: 100vh;
+	transform-style: inherit;
+	width: 100vw;
+}
+
+.Wrapper::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	transform-origin: center;
+	min-height: 100vh;
+	background-image: url(../Images/Header/background_V3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* Parallax */
+	transform: translateZ(-2px) scale(3);
+}
+
+.Characters_images img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.MainBlock {
+	width: 100%;
+	height: 1010px;
+	background-color: black;
+}
