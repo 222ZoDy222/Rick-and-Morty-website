@@ -19,7 +19,6 @@ body {
 
 .Wrapper {
 	box-sizing: border-box;
-	min-height: 100vh;
 	transform-style: inherit;
 	width: 100vw;
 }
@@ -34,7 +33,6 @@ body {
 	bottom: 0;
 	z-index: -1;
 	transform-origin: center;
-	min-height: 100vh;
 	background-image: url(../Images/Header/background_V3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
