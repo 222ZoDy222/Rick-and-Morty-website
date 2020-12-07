@@ -1,0 +1,34 @@
+#pickle {
+	background-image: url(../Images/BG/658977.png);
+	background-size: auto 50%; 
+}
+#Gun {
+	background-image: url(../Images/BG/812062.png);
+	background-size: auto 50%; 
+}
+#Plumbus {
+	background-image: url(../Images/BG/876589.jpg);
+	
+}
+#Drink {
+	background-image: url(../Images/BG/876590.png);
+	background-size: auto 50%; 
+}
+#Notebook {
+	background-image: url(../Images/BG/924300.png);
+	background-size: auto 50%; 
+}
+
+
+
+
+.Wrapper {
+
+}
+
+.Wrapper .Video{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
