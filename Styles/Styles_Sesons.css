@@ -1,0 +1,23 @@
+.Videos_RAM {
+	width: 100%;
+	font: normal normal 700 18px/normal tahoma;
+	color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.Videos_RAM .Sesons {
+	width: 100%;
+}
+
+.Videos_RAM .Sesons .Eps {
+	display: flex;
+	flex-wrap: wrap;	
+	
+}
+.Videos_RAM .Sesons .img_ep {
+	height: 125px;
+    width: 175px;
+    margin: 10px;
+    border: 5px solid #a3faff;
+    border-radius: 5px;
+}
