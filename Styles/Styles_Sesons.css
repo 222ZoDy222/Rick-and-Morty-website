@@ -1,16 +1,29 @@
 .Videos_RAM {
 	width: 100%;
-	font: normal normal 700 18px/normal tahoma;
-	color: #fff;
-    text-decoration: none;
+	
+	
+    
     display: block;
+    background-image: url(../Images/Images_Ep/background_V444.png);
+    background-size: cover;
 }
 .Videos_RAM .Sesons {
-	width: 100%;
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 90%;
 }
 
+.Videos_RAM .Sesons h2{
+	text-decoration: none;
+	color: #fff;
+	font: normal normal 700 30px/normal tahoma;
+	text-align: left;
+}
 .Videos_RAM .Sesons .Eps {
+	margin: 0 auto;
+	width: 80%;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;	
 	
 }

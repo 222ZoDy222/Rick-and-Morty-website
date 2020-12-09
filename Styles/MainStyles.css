@@ -26,6 +26,7 @@
 /*/////////////////////////////////////			Navigation Block         /////////////////////////////////////////*/
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .MainBlock .navigation_block {
+	margin-top: -10px;
 	width: 98%;
 	background-image: url(../Images/Nav_menu/Nav_background.jpg);
 	background-repeat: repeat;
@@ -102,6 +103,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 
 
 
